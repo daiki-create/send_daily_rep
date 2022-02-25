@@ -120,27 +120,17 @@ function send() {
 
     //テスト用
     user_url={
-      '真・小野寺 卍':'https://chat.googleapis.com/v1/spaces/AAAAofQIqxI/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=vZGYUNMAL7hoKvvlU01ZlT5fNa5Ey3PF4sC-l06W2dU%3D',
-      '山崎2':'https://chat.googleapis.com/v1/spaces/AAAAofQIqxI/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=JaHlR2zdBSKP-XfIZVBMj9p6Ks8TtyWBA6i4sti4SA0%3D'
+      '山崎':'https://chat.googleapis.com/v1/spaces/AAAAofQIqxI/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=JaHlR2zdBSKP-XfIZVBMj9p6Ks8TtyWBA6i4sti4SA0%3D'
     }
     var url=user_url[sheet_name]
     var thread='spaces/AAAAofQIqxI/threads/ACCDA8XzWUs';
 
     //本番用
     // user_url={
-    //   '徳長':'https://chat.googleapis.com/v1/spaces/AAAAzBbo-48/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=K8ODxoPnWisAvlTrtyQYL6BK-mElXgq7h2C5sYHEd24%3D',
-    //   '永井':'https://chat.googleapis.com/v1/spaces/AAAAzBbo-48/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=3PsrXA_qg2KaRrdrDXnBiO0hg1SjQcCftkXqyDZxcVc%3D',
-    //   '小野寺':'https://chat.googleapis.com/v1/spaces/AAAAzBbo-48/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=gXoCANcy0_8lnvqLAQ-nQYgR6yEWccR6pBkZC4KWQr0%3D',
-    //   '本田':'https://chat.googleapis.com/v1/spaces/AAAAzBbo-48/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=GbDVAX3cET7qOxO8DkiBKKkcyRXrlQmC7VNC8btSnMY%3D',
-    //   '山崎':'https://chat.googleapis.com/v1/spaces/AAAAzBbo-48/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=z3OWdltpHSJJ9_2OxA1Ax5MbzyfAdjjUYdrhj4pspHE%3D',
-    //   '今村':'https://chat.googleapis.com/v1/spaces/AAAAzBbo-48/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=FPRiv2c-lEhRIP-syXCvt6qP19WbfhmgzrdyEceQIsc%3D',
-    //   '大塚':'https://chat.googleapis.com/v1/spaces/AAAAzBbo-48/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=7bW0ua08gsvKlD936063GCrtPi5M-GfghxO4qmY5Nzg%3D',
-    //   '鈴木':'https://chat.googleapis.com/v1/spaces/AAAAzBbo-48/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=GQDvRI4EHQVF8AeZPPU8ARldO8uaO9dK3q11Vm7wcgs%3D',
-    //   '福原':'https://chat.googleapis.com/v1/spaces/AAAAzBbo-48/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=xnF2lcb9--Yg65-csJfHR7P5HlLLrsnRB6cvRES41uE%3D',
-    //   '加藤':'https://chat.googleapis.com/v1/spaces/AAAAzBbo-48/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=kfiEIwDexFYSjFbLBpcRsKoMQpesrA37PA5Jzds3LfI%3D',
+    //   !!!hidden!!!
     // }
     // var url=user_url[sheet_name]
-    // var thread = "spaces/AAAAzBbo-48/threads/eu_6pNpCK28"
+    // var thread = !!!hidden!!!
 
     var payload = {
       "text" : task_text,
